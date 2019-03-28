@@ -14,7 +14,7 @@ def first_challenge
   }
 
   
-  contacts[favo]
+  contacts["Freddy Mercury"].delete_if("strawberry")
   contacts
 end
 
