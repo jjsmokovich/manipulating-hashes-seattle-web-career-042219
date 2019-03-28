@@ -14,8 +14,7 @@ def first_challenge
   }
 
   
-  contacts.delete_if {|
-  
+  contacts.delete_if {|k, v| if v == "Strawberry"}
   contacts
 end
 
