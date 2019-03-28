@@ -13,7 +13,7 @@ def first_challenge
     }
   }
   
-  contacts["Freddy Mercury"].delete_if {|k, v| if 
+  contacts["Freddy Mercury"].delete_if {|k, v| v == "Strawberry"}
   contacts
 end
 
